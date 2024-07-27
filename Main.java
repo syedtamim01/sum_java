@@ -10,7 +10,7 @@ public class Main {
           a = new StringBuilder(sc.next());
         System.out.println("please enter b number");
          b = new StringBuilder(sc.next());
-
+        System.out.println("You Entered : "+ a +" and :  "+ b);
 
         int lengthA= a.length();
         int lengthB= b.length();
@@ -36,6 +36,9 @@ public class Main {
                 i++;
             }
             a.reverse();
+            addString(a.toString(),b.toString());
+        }
+        else{
             addString(a.toString(),b.toString());
         }
 
